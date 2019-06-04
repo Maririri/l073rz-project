@@ -11,7 +11,10 @@
     </configurations>
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="10e426bf-7727-4985-a6c6-f1e285273d76" name="Default Changelist" comment="" />
+    <list default="true" id="10e426bf-7727-4985-a6c6-f1e285273d76" name="Default Changelist" comment="">
+      <change beforePath="$PROJECT_DIR$/.idea/runConfigurations/OCD_l073rz_project.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/runConfigurations/OCD_l073rz_project.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+    </list>
     <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -33,7 +36,21 @@
         <entry file="file://$PROJECT_DIR$/Src/main.c">
           <provider selected="true" editor-type-id="text-editor">
             <state relative-caret-position="94">
-              <caret line="113" lean-forward="true" selection-start-line="113" selection-end-line="113" />
+              <caret line="134" selection-start-line="134" selection-end-line="134" />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file pinned="false" current-in-tab="false">
+        <entry file="mock:///disassembly">
+          <provider selected="true" editor-type-id="memory-view" />
+        </entry>
+      </file>
+      <file pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/CMakeLists.txt">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="198">
+              <caret line="11" column="30" selection-start-line="11" selection-start-column="30" selection-end-line="11" selection-end-column="30" />
             </state>
           </provider>
         </entry>
@@ -50,11 +67,15 @@
       </set>
     </option>
   </component>
+  <component name="MacroExpansionManager">
+    <option name="directoryName" value="GUEdSPIb" />
+  </component>
   <component name="ProjectConfigurationFiles">
     <option name="files">
       <list>
         <option value="$PROJECT_DIR$/.idea/.gitignore" />
         <option value="$PROJECT_DIR$/.idea/vcs.xml" />
+        <option value="$PROJECT_DIR$/.idea/misc.xml" />
       </list>
     </option>
   </component>
@@ -70,7 +91,6 @@
       <foldersAlwaysOnTop value="true" />
     </navigator>
     <panes>
-      <pane id="Scope" />
       <pane id="ProjectPane">
         <subPane>
           <expand>
@@ -78,19 +98,17 @@
               <item name="l073rz-project" type="b2602c69:ProjectViewProjectNode" />
               <item name="l073rz-project" type="462c0819:PsiDirectoryNode" />
             </path>
-            <path>
-              <item name="l073rz-project" type="b2602c69:ProjectViewProjectNode" />
-              <item name="l073rz-project" type="462c0819:PsiDirectoryNode" />
-              <item name="Src" type="462c0819:PsiDirectoryNode" />
-            </path>
           </expand>
           <select />
         </subPane>
       </pane>
+      <pane id="Scope" />
     </panes>
   </component>
   <component name="PropertiesComponent">
     <property name="WebServerToolWindowFactoryState" value="true" />
+    <property name="ignore_missing_gitignore" value="true" />
+    <property name="last_opened_file_path" value="$PROJECT_DIR$/CMakeLists.txt" />
     <property name="nodejs_interpreter_path.stuck_in_default_project" value="undefined stuck path" />
     <property name="nodejs_npm_path_reset_for_default_project" value="true" />
     <property name="settings.editor.selected.configurable" value="settings.github" />
@@ -107,21 +125,16 @@
       </list>
     </option>
   </component>
-  <component name="RunManager" selected="Generic GDBServer.GDBServer conf">
+  <component name="RunManager" selected="Embedded GDB Server.QEMU">
     <configuration name="l073rz-project.elf" type="CMakeRunConfiguration" factoryName="Application" PASS_PARENT_ENVS_2="true" PROJECT_NAME="l073rz-project" TARGET_NAME="l073rz-project.elf" CONFIG_NAME="Debug" RUN_TARGET_PROJECT_NAME="l073rz-project" RUN_TARGET_NAME="l073rz-project.elf">
-      <method v="2">
-        <option name="com.jetbrains.cidr.execution.CidrBuildBeforeRunTaskProvider$BuildBeforeRunTask" enabled="true" />
-      </method>
-    </configuration>
-    <configuration name="GDBServer conf" type="com.jetbrains.cidr.embedded.customgdbserver.type" factoryName="com.jetbrains.cidr.embedded.customgdbserver.factory" PROGRAM_PARAMS="-d -p 3433" PASS_PARENT_ENVS_2="true" PROJECT_NAME="l073rz-project" TARGET_NAME="l073rz-project.elf" CONFIG_NAME="Debug" RUN_TARGET_PROJECT_NAME="l073rz-project" RUN_TARGET_NAME="l073rz-project.elf">
-      <custom-gdb-server version="1" gdb-connect="localhost:3433" executable="C:\Program Files (x86)\Atollic\TrueSTUDIO for STM32 9.3.0\Servers\ST-LINK_gdbserver\ST-LINK_gdbserver.exe" reset-cmd="monitor reset" warmup-ms="0" download-type="UPDATED_ONLY" />
       <method v="2">
         <option name="com.jetbrains.cidr.execution.CidrBuildBeforeRunTaskProvider$BuildBeforeRunTask" enabled="true" />
       </method>
     </configuration>
     <list>
       <item itemvalue="CMake Application.l073rz-project.elf" />
-      <item itemvalue="Generic GDBServer.GDBServer conf" />
+      <item itemvalue="Embedded GDB Server.OpenOCD gedserver" />
+      <item itemvalue="Embedded GDB Server.QEMU" />
       <item itemvalue="OpenOCD Download &amp; Run.OCD l073rz-project" />
     </list>
   </component>
@@ -135,6 +148,8 @@
       <workItem from="1559576419515" duration="3138000" />
       <workItem from="1559585384111" duration="1156000" />
       <workItem from="1559587000683" duration="1012000" />
+      <workItem from="1559670043377" duration="34000" />
+      <workItem from="1559670100782" duration="1159000" />
     </task>
     <task id="LOCAL-00001" summary="initial commit">
       <created>1559587667207</created>
@@ -147,38 +162,52 @@
     <servers />
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="5306000" />
+    <option name="totallyTimeSpent" value="6499000" />
   </component>
   <component name="ToolWindowManager">
-    <frame x="-8" y="-8" width="1936" height="1176" extended-state="6" />
-    <editor active="true" />
+    <frame x="0" y="23" width="1280" height="777" extended-state="6" />
     <layout>
-      <window_info content_ui="combo" id="Project" order="0" visible="true" weight="0.16728823" />
+      <window_info content_ui="combo" id="Project" order="0" visible="true" weight="0.1720517" />
       <window_info id="Structure" order="1" side_tool="true" weight="0.25" />
       <window_info id="Favorites" order="2" side_tool="true" />
       <window_info anchor="bottom" id="Message" order="0" />
       <window_info anchor="bottom" id="Find" order="1" />
-      <window_info anchor="bottom" id="Run" order="2" weight="0.32986766" />
-      <window_info anchor="bottom" id="Debug" order="3" weight="0.39981097" />
+      <window_info anchor="bottom" id="Run" order="2" weight="0.32894737" />
+      <window_info active="true" anchor="bottom" id="Debug" order="3" visible="true" weight="0.3991228" />
       <window_info anchor="bottom" id="Cvs" order="4" weight="0.25" />
       <window_info anchor="bottom" id="Inspection" order="5" weight="0.4" />
       <window_info anchor="bottom" id="TODO" order="6" />
       <window_info anchor="bottom" id="Services" order="7" />
       <window_info anchor="bottom" id="Database Changes" order="8" />
-      <window_info anchor="bottom" id="Messages" order="9" weight="0.32986766" />
+      <window_info anchor="bottom" id="Messages" order="9" weight="0.32894737" />
       <window_info anchor="bottom" id="Terminal" order="10" />
       <window_info anchor="bottom" id="Event Log" order="11" side_tool="true" />
       <window_info anchor="bottom" id="Version Control" order="12" />
       <window_info anchor="bottom" id="CMake" order="13" />
+      <window_info anchor="bottom" id="Conan" order="14" />
       <window_info anchor="right" id="Commander" internal_type="SLIDING" order="0" type="SLIDING" weight="0.4" />
       <window_info anchor="right" id="Ant Build" order="1" weight="0.25" />
       <window_info anchor="right" content_ui="combo" id="Hierarchy" order="2" weight="0.25" />
       <window_info anchor="right" id="Remote Host" order="3" />
       <window_info anchor="right" id="Database" order="4" />
+      <window_info anchor="right" id="Cargo" order="5" />
     </layout>
   </component>
   <component name="TypeScriptGeneratedFilesManager">
     <option name="version" value="1" />
+  </component>
+  <component name="Vcs.Log.Tabs.Properties">
+    <option name="TAB_STATES">
+      <map>
+        <entry key="MAIN">
+          <value>
+            <State>
+              <option name="COLUMN_ORDER" />
+            </State>
+          </value>
+        </entry>
+      </map>
+    </option>
   </component>
   <component name="VcsManagerConfiguration">
     <MESSAGE value="initial commit" />
@@ -206,10 +235,17 @@
     <entry file="file://$PROJECT_DIR$/l073rz-project.ioc">
       <provider selected="true" editor-type-id="IocFileEditor" />
     </entry>
+    <entry file="file://$PROJECT_DIR$/CMakeLists.txt">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="198">
+          <caret line="11" column="30" selection-start-line="11" selection-start-column="30" selection-end-line="11" selection-end-column="30" />
+        </state>
+      </provider>
+    </entry>
     <entry file="file://$PROJECT_DIR$/Src/main.c">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="94">
-          <caret line="113" lean-forward="true" selection-start-line="113" selection-end-line="113" />
+          <caret line="134" selection-start-line="134" selection-end-line="134" />
         </state>
       </provider>
     </entry>

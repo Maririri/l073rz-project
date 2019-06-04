@@ -1,6 +1,6 @@
 <component name="ProjectRunConfigurationManager">
-  <configuration name="OCD l073rz-project" type="com.jetbrains.cidr.embedded.openocd.conf.type" factoryName="com.jetbrains.cidr.embedded.openocd.conf.factory" PASS_PARENT_ENVS_2="true" PROJECT_NAME="l073rz-project" TARGET_NAME="l073rz-project.elf" CONFIG_NAME="Debug" RUN_TARGET_PROJECT_NAME="l073rz-project" RUN_TARGET_NAME="l073rz-project.elf">
-    <openocd gdb-port="3333" telnet-port="4444" board-config="board/st_nucleo_l073rz.cfg" reset-type="INIT" download-type="ALWAYS" />
+  <configuration default="false" name="OCD l073rz-project" type="com.jetbrains.cidr.embedded.openocd.conf.type" factoryName="com.jetbrains.cidr.embedded.openocd.conf.factory" PASS_PARENT_ENVS_2="true" PROJECT_NAME="l073rz-project" TARGET_NAME="l073rz-project.elf" CONFIG_NAME="Debug" RUN_TARGET_PROJECT_NAME="l073rz-project" RUN_TARGET_NAME="l073rz-project.elf">
+    <openocd gdb-port="3333" telnet-port="4444" board-config="board/stm32l0discovery.cfg" reset-type="INIT" download-type="ALWAYS" />
     <method v="2">
       <option name="com.jetbrains.cidr.execution.CidrBuildBeforeRunTaskProvider$BuildBeforeRunTask" enabled="true" />
     </method>
